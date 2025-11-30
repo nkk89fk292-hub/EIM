@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz for Unit 13 EIM Level II</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login-container" class="container" style="text-align: center; padding-top: 20vh;">
+        <h1>Enter Password</h1>
+        <input type="password" id="password-input" placeholder="Password"
+            style="padding: 10px; font-size: 16px; margin-top: 20px;">
+        <button id="login-button"
+            style="padding: 10px 20px; font-size: 16px; cursor: pointer; background-color: var(--primary-color); color: white; border: none; border-radius: 4px; margin-left: 10px;">Enter</button>
+        <p id="error-message" style="color: red; display: none; margin-top: 10px;">Incorrect password</p>
+    </div>
+
+    <div id="quiz-container" class="container" style="display: none;">
+        <header>
+            <h1>Quiz for Unit 13 EIM Level II</h1>
+            <p class="subtitle">Vocabulary, Grammar & Reading Comprehension</p>
+        </header>
+
+        <div id="quiz-container" class="question-list">
+            <!-- Questions will be injected here by JavaScript -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
